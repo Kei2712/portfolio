@@ -11124,7 +11124,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #c0c7cf 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 1.0) 100%);
+  background: linear-gradient(to bottom, #c0c7cf 0%, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 1.0) 60%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11226,6 +11226,11 @@ body {
 .text-fill-accent
 {
   -webkit-text-fill-color: #d1585e !important;
+}
+
+.text-fill-dark-accent
+{
+  -webkit-text-fill-color: #7c6668 !important;
 }
 
 .colour-accent
