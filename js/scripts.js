@@ -85,7 +85,9 @@ function showSlides(n, slideID)
     for (i = 0; i < slides.length; i++)
     {
       slides[i].style.display = "none";
+      slides[i].style.visibility = "hidden";
     }
 
-    slides[slideIndex[slideID]-1].style.display = "block";  
+    slides[slideIndex[slideID]-1].style.display = "flex";  
+    slides[slideIndex[slideID]-1].style.visibility = "visible";
 }
