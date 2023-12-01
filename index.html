@@ -58,13 +58,23 @@
                 </div>
             </div>
         </section>
-        <img class="img-fluid" src="assets/img/banner.png" alt="..." />
+        <img class="img-fluid background-black" src="assets/img/banner.png" alt="..." />
         <!-- Projects-->
         <section class="projects-section bg-grey" id="mywork">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="slideshow-container">
+                            <div class="photographySlide slideshow-fade"><img src="assets/img/bg-masthead.jpg" style="width:100%"></div>
+                            <div class="photographySlide slideshow-fade"><img src="assets/img/bg-masthead-2.jpg" style="width:100%"></div>
+                            <div class="photographySlide slideshow-fade"><img src="assets/img/bg-masthead-3.jpg" style="width:100%"></div>
+                            <div class="photographySlide slideshow-fade"><img src="assets/img/bg-masthead-4.jpg" style="width:100%"></div>
+
+                            <a class="slideshow-prev" onclick="cycleSlides(-1, 'photographySlide')">❮</a>
+                            <a class="slideshow-next" onclick="cycleSlides(1, 'photographySlide')">❯</a>
+                        </div>
+                    </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Photography</h4>
@@ -74,7 +84,17 @@
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="slideshow-container">
+                            <div class="characterSlide slideshow-fade"><img src="assets/img/bg-masthead.jpg" style="width:100%"></div>
+                            <div class="characterSlide slideshow-fade"><img src="assets/img/bg-masthead-2.jpg" style="width:100%"></div>
+                            <div class="characterSlide slideshow-fade"><img src="assets/img/bg-masthead-3.jpg" style="width:100%"></div>
+                            <div class="characterSlide slideshow-fade"><img src="assets/img/bg-masthead-4.jpg" style="width:100%"></div>
+
+                            <a class="slideshow-prev" onclick="cycleSlides(-1, 'characterSlide')">❮</a>
+                            <a class="slideshow-next" onclick="cycleSlides(1, 'characterSlide')">❯</a>
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -88,7 +108,17 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="slideshow-container">
+                            <div class="traditionalSlide slideshow-fade"><img src="assets/img/bg-masthead.jpg" style="width:100%"></div>
+                            <div class="traditionalSlide slideshow-fade"><img src="assets/img/bg-masthead-2.jpg" style="width:100%"></div>
+                            <div class="traditionalSlide slideshow-fade"><img src="assets/img/bg-masthead-3.jpg" style="width:100%"></div>
+                            <div class="traditionalSlide slideshow-fade"><img src="assets/img/bg-masthead-4.jpg" style="width:100%"></div>
+
+                            <a class="slideshow-prev" onclick="cycleSlides(-1, 'traditionalSlide')">❮</a>
+                            <a class="slideshow-next" onclick="cycleSlides(1, 'traditionalSlide')">❯</a>
+                        </div>
+                    </div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -160,6 +190,6 @@
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
     </body>
 </html>
