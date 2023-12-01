@@ -11252,7 +11252,15 @@ body {
 {
   display: flex;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
+  position: relative;
+}
+
+.slideshow-container-large
+{
+  display: flex;
+  width: 100%;
+  height: 30rem;
   position: relative;
 }
 
